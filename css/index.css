@@ -1,0 +1,135 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+	font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+li{
+	list-style:none;
+}
+
+.nav-bg{
+	background: #fff;
+	border: none;
+	margin: 0;
+}
+
+.navbar-header .navbar-brand{
+	height:80px;
+}
+
+.navbar-collapse .navbar-nav>li>a{
+	line-height:50px;
+}
+
+.navbar-header .navbar-toggle{
+	margin-top:23px;
+}
+
+.navbar-nav li:hover{
+    display: block;
+    background: rgb(216,12,24);
+}
+.navbar-collapse .navbar-nav>li>a:hover{
+	color:#fff;
+}
+
+.container .navbar{
+	margin-bottom:0px;
+}
+
+.about-bg{
+	background:url("../img/about-bg.png") 0 0 no-repeat;
+	background-size: 100% 100%;	
+}
+
+.color-red{
+	color:rgb(216,12,24);
+}
+
+.div-padding{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+p.s-text{
+	padding-top:32px;
+	font-size:13px;
+	color:rgb(89,87,87);
+	line-height:25px;
+}
+
+.list-fang li{
+	list-style-image:url('../img/kuai.png');
+}
+
+.mi-style{
+	padding-top:100px;
+}
+.ul-padding{
+	padding-left: 0px;
+	padding-top: 60px;
+}
+
+p.p-padding{
+	padding-top:200px;	
+}
+
+p.p-margin{
+	margin-top: 380px;
+}
+
+.border-red{
+	border: 1px red solid;
+	padding: 1rem;
+}
+
+.memo>li{
+	padding-top: 40px;
+}
+
+.lianxi-bg{
+	height: 190px;
+	display: inline-block;
+	background: url('../img/lianxi.png') no-repeat;
+	background-size: 974px 126px;
+	background-position: 0px 60px;
+}
+
+.wechat-bg{
+	width: 170px;
+	background-position: 0px 60px;
+}
+
+.micro-blog-bg{
+	width: 160px;
+	background-position: -240px 60px;
+}
+
+.place-bg{
+	width: 90px;
+	background-position: -460px 60px;
+}
+
+.phone-bg{
+	width: 290px;
+	/* width: 100%; */
+	background-size: 730px 95px;
+	background-position: -450px 90px;
+}
+
+@media screen and (max-width: 992px){
+	/* #logoimg{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	} */
+
+	.div-padding{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+@media screen and (max-width: 321px){
+	body{
+		width: 320px;
+	}
+}
