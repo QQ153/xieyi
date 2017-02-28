@@ -1,0 +1,52 @@
+.color-red{
+	color:rgb(216,12,24);
+}
+
+.lianxi-bg{
+	height: 190px;
+	display: inline-block;
+	background: url('../img/lianxi.png') no-repeat;
+	background-size: 974px 126px;
+	background-position: 0px 60px;
+}
+
+.wechat-bg{
+	width: 170px;
+	background-position: 0px 60px;
+}
+
+.micro-blog-bg{
+	width: 160px;
+	background-position: -240px 60px;
+}
+
+.place-bg{
+	width: 90px;
+	background-position: -460px 60px;
+}
+
+.phone-bg{
+	width: 290px;
+	/* width: 100%; */
+	background-size: 730px 95px;
+	background-position: -450px 90px;
+}
+
+.lowest{
+	height:66px;
+	background:rgb(224,61,70);
+	line-height:66px;
+	font-size: 16px;
+	color:#fff;
+	margin-top: 70px;
+}
+
+.lowest p{
+	margin:0;
+}
+
+@media screen and (max-width: 992px){
+	.lowest{
+		font-size: 14px;
+	}
+}

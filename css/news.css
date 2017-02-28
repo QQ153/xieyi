@@ -1,0 +1,87 @@
+.color-red{
+	color: rgb(216, 12, 24);
+}
+
+.main{
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+.lei{
+	margin-top: 60px;
+}
+
+.img-main{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.text-main{
+	display: inline-block;
+	width: 60%;
+	padding-left: 5%;
+	vertical-align: top;
+	color: rgb(89, 87, 87);
+	line-height: 24px;
+}
+
+.text-main i{
+	width: 50%;
+	height: 1px;
+	margin-bottom: 13px;
+	display: block;
+	background:rgb(232,232,232);
+}
+
+.more{
+	display: inline-block;
+	float: right;
+	border: 1px red solid;
+	color: rgb(89, 87, 87);
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.xian{
+	margin-top: 20px;
+	height: 2px;
+	border-bottom: 2px rgb(203,203,204) dashed;
+}
+
+
+@media screen and (max-width: 992px){
+	.txt{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.text-main h4{
+		font-size: 14px;
+	}
+	
+	.text-main i{
+		margin-bottom: 0px;
+	}
+
+	.txt{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.img-main{
+		display: none;
+	}
+
+	.text-main{
+		width: 90%;
+	}
+
+}

@@ -1,0 +1,36 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+	font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+li{
+	list-style:none;
+}
+
+.nav-bg{
+	background: #fff;
+	border: none;
+	margin: 0;
+}
+
+.navbar-header .navbar-brand{
+	height:80px;
+}
+
+.navbar-collapse .navbar-nav>li>a{
+	line-height:50px;
+}
+
+.navbar-header .navbar-toggle{
+	margin-top:23px;
+}
+
+.navbar-nav li:hover{
+    display: block;
+    background: rgb(216,12,24);
+}
+.navbar-collapse .navbar-nav>li>a:hover{
+	color:#fff;
+}
+
+.navbar{
+	margin-bottom:0px;
+}
